@@ -1,0 +1,3 @@
+interface IHardness {
+    scale: number
+}
