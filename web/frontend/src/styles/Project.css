@@ -1,0 +1,12 @@
+tr {
+  line-height: 10px;
+  min-height: 25px;
+  height: 25px;
+  font-size: 14px;
+  border-top: none;
+  border-bottom: 2px solid rgb(223, 225, 230);
+}
+
+thead {
+  color: rgb(94, 108, 132);
+}

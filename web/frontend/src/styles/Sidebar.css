@@ -1,0 +1,44 @@
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0747a6;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav .menu-button {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffffff;
+  display: block;
+  border-radius: 10px;
+}
+
+.sidenav .menu-button-current {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffffff;
+  display: block;
+  background-color: rgb(5, 54, 127);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.sidenav .menu-button:hover {
+  color: #f1f1f1;
+  background-color: rgb(28, 99, 206);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 20px;
+}

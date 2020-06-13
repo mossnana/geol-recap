@@ -1,0 +1,23 @@
+{
+  "name": "geol_recap",
+  "version": "1.0.2",
+  "description": "Geol Recap Backend APIs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adler-32": "^1.2.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg-promise": "^10.5.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
